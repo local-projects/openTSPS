@@ -1,5 +1,5 @@
 <SOURCE_TYPE>
-    <val_0>1.000000000</val_0>
+    <val_0>0.000000000</val_0>
 </SOURCE_TYPE>
 <VIDEO_FILE_DIR>
     <val_0>videos</val_0>
@@ -41,7 +41,7 @@
     <val_0>0.100000001</val_0>
 </RELEARN_BACKGROUND>
 <THRESHOLD>
-    <val_0>100.000000000</val_0>
+    <val_0>35.807407379</val_0>
 </THRESHOLD>
 <BLOB_TYPE>
     <val_0>0.000000000</val_0>
@@ -50,25 +50,25 @@
     <val_0>0.000000000</val_0>
 </USE_HIGHPASS>
 <HIGHPASS_BLUR>
-    <val_0>1.000000000</val_0>
+    <val_0>1.111111164</val_0>
 </HIGHPASS_BLUR>
 <HIGHPASS_NOISE>
     <val_0>1.000000000</val_0>
 </HIGHPASS_NOISE>
 <USE_SMOOTHING>
-    <val_0>0.000000000</val_0>
+    <val_0>1.000000000</val_0>
 </USE_SMOOTHING>
 <SMOOTH_AMOUNT>
-    <val_0>0.000000000</val_0>
+    <val_0>4.000000000</val_0>
 </SMOOTH_AMOUNT>
 <MIN_BLOB>
-    <val_0>1.000000000</val_0>
+    <val_0>0.195148155</val_0>
 </MIN_BLOB>
 <MAX_BLOB>
     <val_0>100.000000000</val_0>
 </MAX_BLOB>
 <FIND_HOLES>
-    <val_0>0.000000000</val_0>
+    <val_0>1.000000000</val_0>
 </FIND_HOLES>
 <SENSE_HAAR>
     <val_0>0.000000000</val_0>
@@ -80,7 +80,7 @@
     <val_0>1.000000000</val_0>
 </SEND_OSC>
 <OSC_HOST>
-    <val_0>127.0.0.1</val_0>
+    <val_0>192.168.0.255</val_0>
 </OSC_HOST>
 <OSC_PORT>
     <val_0>12000</val_0>
@@ -137,13 +137,13 @@
     <val_0>0.000000000</val_0>
 </SENSE_OPTICAL_FLOW>
 <SEND_SCENE_DATA>
-    <val_0>1.000000000</val_0>
+    <val_0>0.000000000</val_0>
 </SEND_SCENE_DATA>
 <SCENE_GRID_X>
-    <val_0>0.000000000</val_0>
+    <val_0>10.000000000</val_0>
 </SCENE_GRID_X>
 <SCENE_GRID_Y>
-    <val_0>0.000000000</val_0>
+    <val_0>10.000000000</val_0>
 </SCENE_GRID_Y>
 <QUAD0_X>0.000000000</QUAD0_X>
 <QUAD0_Y>0.000000000</QUAD0_Y>
@@ -154,5 +154,14 @@
 <QUAD3_X>0.000000000</QUAD3_X>
 <QUAD3_Y>1.000000000</QUAD3_Y>
 <HIGHPASS_KERNEL>
-    <val_0>1.000000000</val_0>
+    <val_0>1.733333349</val_0>
 </HIGHPASS_KERNEL>
+<K2_NEAR>
+    <val_0>30.000000000</val_0>
+</K2_NEAR>
+<K2_FAR>
+    <val_0>5000.000000000</val_0>
+</K2_FAR>
+<STORE_BG>
+    <val_0>1.000000000</val_0>
+</STORE_BG>

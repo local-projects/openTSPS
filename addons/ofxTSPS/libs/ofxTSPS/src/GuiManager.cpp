@@ -319,7 +319,7 @@ namespace ofxTSPS {
         relearnGroup->seBaseColor(180,87,128);
         relearnGroup->setShowText(false);
         panel.addToggle("progressive background recapture", "RELEARN", false);
-        panel.addSlider("recapture rate :", "RELEARN_BACKGROUND", .1f, 0.0f, 1000.0f, false);
+        panel.addSlider("recapture rate :", "RELEARN_BACKGROUND", .1f, 0.0f, 2000.0f, false);
         
         //differencing settings
         

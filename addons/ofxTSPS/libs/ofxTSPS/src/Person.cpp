@@ -47,7 +47,7 @@ namespace ofxTSPS {
     //--------------------------------------------------------------
     void Person::updateCentroid( ofPoint _centroid, bool dampen ){
         if(dampen){
-            centroid = (centroid * .7) + (_centroid * .3);
+            centroid = (centroid * .925) + (_centroid * .075);
         }
         else{
             centroid = _centroid;
@@ -125,7 +125,7 @@ namespace ofxTSPS {
         ofSetHexColor(0xffffff);
         char idstr[1024];
         sprintf(idstr, "pid: %d\noid: %d\nage: %d", pid, oid, age );
-        ofDrawBitmapString(idstr, centroid.x+8, centroid.y);
+        //ofDrawBitmapString(idstr, centroid.x+8, centroid.y);
     }
     
     //--------------------------------------------------------------

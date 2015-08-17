@@ -118,7 +118,7 @@ namespace ofxTSPS {
 			#ifndef TSPS_KINECT2
 			
             bool    useOpenNI();
-            void    setUseOpenNI( bool bUseOpenNI=true, int deviceIndex=0 );s
+            void    setUseOpenNI( bool bUseOpenNI=true, int deviceIndex=0 );
 			#endif
 			#else
             bool    useOpenNI();
